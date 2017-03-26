@@ -5,14 +5,7 @@ h1 {
   line-height: 50px;
   letter-spacing: 5px;
   text-align: center;
-  margin: 0; 
-  
-  /* new stuff below  */
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: 0.8;
+  margin: 0;
 }
 
 h2 {
@@ -47,11 +40,11 @@ footer {
   height: 230px;
   background-image: url("https://raw.githubusercontent.com/wdi-sg/smart-coding-101/master/images/avatar.png");
   background-size: contain;
-  background-position: center; 
+  background-position: center;
   position: relative;
 }
 
-.intro { 
+.intro {
   font-size: 1.4em;
   text-align: center;
   padding: 20px;
@@ -59,7 +52,7 @@ footer {
 
 .section-header {
   height: 200px;
-  border-top: 3px solid grey; 
+  border-top: 3px solid grey;
   background-image: url("https://raw.githubusercontent.com/wdi-sg/smart-coding-101/master/images/bgs/3.png");
   background-size: cover;
   background-attachment: fixed;
