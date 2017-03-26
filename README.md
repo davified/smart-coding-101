@@ -169,6 +169,14 @@ Now that we've learnt about CSS, let's add some style to our site. In your CSS f
 
 ### Basic CSS
 
+#### body
+Let's make our font a little nicer, by giving it a `font-family` of `Futura`.
+```
+body {
+  font-family: Futura
+}
+```
+
 #### h1
 Let's make our main heading a bit fancy, by giving it a black `background-color` and white text `color`. We can make the `font-size` bigger than normal and also increase the `line-height` and `letter-spacing` to give it a bit more of a wow factor. Finally, let's center out `text-align`. Also, let's set the `margin` to 0, so that our h1 fits more snugly.
 
@@ -326,6 +334,10 @@ Next we'll learn how to deploy it online. If you've finished early, spend some t
 **css**
 
 ```css
+body {
+  font-family: Futura
+}
+
 h1 {
   background-color: black;
   color: white;
